@@ -69,7 +69,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker PS](UCLA_Cyber_Sec_Project_1/Diagrams/ELK_stack_docker_container.png)
+![Docker PS](Diagrams/ELK_stack_docker_container.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
