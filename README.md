@@ -80,7 +80,9 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
 - _Metricbeat_
+![Metric Success](Diagrams/FilebeatSuccess.png)
 - _Filebeat_
+![Filebeat Success](Diagrams/MetricbeatSuccess.png)
 
 These Beats allow us to collect the following information from each machine:
 - _'Metricbeat': Collects system-level data. This includes information like CPU usage, memory, disk IO, ect. Metricbeats would be able to tell if the servers were getting overloaded or turned off._
