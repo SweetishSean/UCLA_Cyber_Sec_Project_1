@@ -92,8 +92,8 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the contencts of UCLA_Cyber_Sec_Project_1/Ansible/ and UCLA_Cyber_Sec_Project_1/Linux/ files to /etc/ansible/.
-- Update the hosts file to include the DVWA webservers and the ELK stack VM. Or simply use the hosts file included in Ansible/hosts.
+- Copy the contencts of _UCLA_Cyber_Sec_Project_1/Ansible/_ and _UCLA_Cyber_Sec_Project_1/Linux/_ files to */etc/ansible/*.
+- Update the hosts file to include the DVWA webservers and the ELK stack VM. Or simply use the hosts file included in *Ansible/hosts*.
 - Run the playbook, and navigate to 13.64.129.44:5601 to check that the installation worked as expected.
 
 
@@ -104,7 +104,7 @@ As a Bonus, provide the specific commands the user will need to run to download 
 > _Now inside Jumpbox_
 - sudo docker start elastic_hertz
 - sudo docker attach elastic_hertz
-> _Now inside Ansible Control node Container_
+> _Now inside Ansible Control Node Container_
 - cd /etc/ansible/
 > _Download all the files with git and organize in a different order_
 - git clone git@github.com:SweetishSean/UCLA_Cyber_Sec_Project_1.git
