@@ -2,12 +2,12 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!(Diagrams/AzureSystemWithELK-Resized Image.png)
+![Topology](Diagrams/AzureSystemWithELK-ResizedImage.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -69,7 +69,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-!(UCLA_Cyber_Sec_Project_1/Diagrams/ELK stack docker container.png)
+![Docker PS](UCLA_Cyber_Sec_Project_1/Diagrams/ELK_stack_docker_container.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
